@@ -28,7 +28,7 @@ when an item has been clicked on. The first attempt, where I added a crossedOut:
 
 I haven't been able to figure out how to access the event object on a function/method that also has other parameters which was my first though to address this problem.
 
-Eventually I came up with a solution - wrapping the item text in a <span> and adding the onClick to that element. This kept the two click items separate and allowed them to work indepently.
+Eventually I came up with a solution - wrapping the item text in a span tag and adding the onClick to that element. This kept the two click items separate and allowed them to work indepently.
 
 I'm not sure if that is the idiomatically react way to do things but it works now.
 
