@@ -2,7 +2,7 @@
 
 ### Day 55: November 4, 2019
 
-**Today's Progress**
+**Today's Progress:**
 
 Added a new feature to a react to do list - now items get crossed out and moved to the bottom of the list when clicked on. This is my second time doing 100DaysOfCode and I decided to try the journaling component. Started in an external file then remembered I could fork the repo from the challenge.
 
