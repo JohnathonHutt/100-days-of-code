@@ -1,30 +1,33 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
+### Day 55: November 4, 2019
 ##### (delete me or comment me out)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Added a new feature to a react to do list - now items get crossed out and moved to the bottom of the list when clicked on. This is my second time doing 100DaysOfCode and I decided to try the journaling component. Started in an external file then remembered I could fork the repo from the challenge.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** Today I have been continuing to work on a to do list app using react js (react-to-do-app).
 
-**Link to work:** [Calculator App](http://www.example.com)
+I had built in all the primary functionality I wanted: adds items as long as input isn't empty, deletes items by clicking - button, looks nice, has a transition effect when closing/opening.
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+I also wanted to be able to click on the text of an item to cross it out.
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+I planned to do this by adding the class... 
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+.crossed-out {
+  text-decoration: line-through;
+}
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+And displaying it with...
 
+className={`item ${(item.isCrossedOut)? "crossed-out" : ""}`}
 
-### Day 1: June 27, Monday
+when an item has been clicked on. The first attempt, where I added a crossedOut: false property to each item (an object representing each list item in the state) worked but also disabled my ability to delete items - as the button was nested inside the li element that had the click event to change cross-out.
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+I haven't been able to figure out how to access the event object on a function/method that also has other parameters which was my first though to address this problem.
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+Eventually I came up with a solution - wrapping the item text in a <span> and adding the onClick to that element. This kept the two click items separate and allowed them to work indepently.
 
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+I'm not sure if that is the idiomatically react way to do things but it works now.
+
+**Link to work:** [To do list App](https://github.com/JohnathonHutt/react-to-do-list)
+
