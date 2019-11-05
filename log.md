@@ -34,3 +34,15 @@ I'm not sure if that is the idiomatically react way to do things but it works no
 
 **Link to work:** [To do list App](https://github.com/JohnathonHutt/react-to-do-list)
 
+### Day 56: November 5, 2019
+
+**Today's Progress:**
+
+Finished up the React js section on freeCodeCamp. Started with the redux section.
+
+**Thoughts:** 
+
+The freeCodeCamp material was good practive and reinforced some of the concepts I had covered in the react tutorials from the documentation. Also, itroduced me to some new design patterns - namely doing more of the manipulation in the render() method but before the return (e.g. saving JSX to constants). I think this could be a better approach for readability in a lot of cases.
+
+**Link to work:** n/a
+
