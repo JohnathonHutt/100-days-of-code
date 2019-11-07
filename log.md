@@ -58,3 +58,15 @@ At the time I began twitter bot project I was pretty new to JS. I had figured ou
 
 **Link to work:** n/a
 
+### Day 58: November 7, 2019
+
+**Today's Progress:**
+
+Completed a twitter-bot project using node.js the likes, retweets and follows
+
+**Thoughts:** 
+
+I had originally started this project when learning about REST APIs in Angels Yu's bootcamp course on Udemy. At the time I was getting stuck in 'callback hell' when trying to implement multiple features. I was very new to JS and I wasn't understanding why I couldn't get a list of the tweets outside of the callback to manipulate later - I came back to the project yesterday and could see that it was the asynchronous nature of js that was giving me trouble. I had thought it was a good opportunity to learn more about promises and async await but for better or worse I was able to resolve my issues just by using helper functions - this allowed me to include any functionality I wanted while still keeping the code readable.
+
+**Link to work:** https://github.com/JohnathonHutt/twitter-bot
+
