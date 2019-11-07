@@ -46,3 +46,15 @@ The freeCodeCamp material was good practive and reinforced some of the concepts 
 
 **Link to work:** n/a
 
+### Day 57: November 6, 2019
+
+**Today's Progress:**
+
+Logging for yesterday* Went to my Wednesday meetup. Started to look at an old node.js project
+
+**Thoughts:** 
+
+At the time I began twitter bot project I was pretty new to JS. I had figured out how to write a like and retweet bot, but not both. I wanted to return a list of tweet ids so that I could perform different operations on them outside of the 'callback jungle'. Everything I knew about scope - which was enough said that this should of worked - but it didn't. The reason was that the code ran on my blank variables before the data could arrive from the API call. I haven't had a chance to take a deeper dive into asynchronous js and promises yet - hopefully this is an opportunity for that.
+
+**Link to work:** n/a
+
