@@ -96,7 +96,5 @@ Finished up a markdown previewer for the freeCodeCamp frontend libraries certifi
 
 This one took a bit more time than initially anticipated. I effectively finished the core functionality pretty quickly but then tried to add some cool features and CSS that made things complicated and broken for a bit. I evevntually ended up with something that looks pretty nice/got some more quality react/frontend design experience. I ended up adding buttons to hide and shrink the two windows - I REALLY wanted a nice transition effect and it cost me quite a bit of time. In the end the solution I went with was to wrap the content of the editor and preview window in a div with a height based on the window - that along with a few other properties could be toggled on/off in the react state to provide the desired effect.
 
-The markdown previewer is coming along nicely - I more or less have the core functionality - just need to play around with it to make sure everything loads and passes tests as desired. Also lots more syling and plenty of functionality to add - I thought the example project looked very nice and I would like to be able to make something with similar functionality - i.e. headers w/ click to expand/fullscreen.
-
 **Link to work:** https://codepen.io/johnathonhutt/pen/oNNMJZL?editors=0110
 
