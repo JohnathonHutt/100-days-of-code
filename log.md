@@ -98,3 +98,17 @@ This one took a bit more time than initially anticipated. I effectively finished
 
 **Link to work:** https://codepen.io/johnathonhutt/pen/oNNMJZL?editors=0110
 
+
+### Day 66: November 15, 2019
+
+**Today's Progress:**
+
+Started working on freeCodeCamp drum machine project with React.
+
+**Thoughts:** 
+
+Spent the majority of the day thinking about ideas for a freelance project I am working on. Started to use Balsamiq for the first time - seems like a really nice tool. I got into the freeCodeCamp drum kit project a bit - I'm planning to (try) not to do as elaborate of a job on this one and just get it done quickly. I have already done a drum machine project in Angela Yu's Udemy bootcamp course - that one was in JQuery - although I used vanilla JS at the time. I'm making this version with React - it is striking how in this case React seems to take a very simple project and complicate it, so I will try to be relatively minimalist about it. The few feature ideas that I think would be cool - like a record/play back button would likely be huge time sinks - so I'm going to try to get through it quick, maybe throw in some Gene from Bob's burgers inspired sounds/styling and move on to the calculator and pomodoro timer - because I have yet to make those projects in JS so they should be more interesting.
+
+**Link to work:** (N/A)
+
+
