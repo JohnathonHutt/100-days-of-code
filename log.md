@@ -112,3 +112,16 @@ Spent the majority of the day thinking about ideas for a freelance project I am 
 **Link to work:** (N/A)
 
 
+### Day 69: November 18, 2019
+
+**Today's Progress:**
+
+Wrapped up freeCodeCamp drum machine project with React.
+
+**Thoughts:** 
+
+Finished up the freeCodeCamp drum machine project. I definitely didn't put the level of extras into this one that I had in previous projects. It was my second drum machine and it was a little painful to see how much using react complicated rather than expedited the process on this one. I ended up using a possibly not idiomatically react approach for adding and removing the "pressed" class - just using document.getElementById(id).classList.add("pressed") and then removing the class in a setTimeout function. I'll have to take a look at similar projects to see other approaches - any of my other ideas seemed entirely too overcomplicated so hopefully this is fine (it did work fine in the browser). Realized that you can call helper methods in other methods in the same class using a structure like method() {this.helperMethod();}. and the helper method gets hoisted (w/i in the class at least not sure of terminology) - something I would have assumed is possible but definitely good to know. Tomorrow I will submit the drum machine to the fcc tests and commit the repo.
+
+**Link to work:** (coming soon)
+
+
